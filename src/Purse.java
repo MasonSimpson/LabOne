@@ -10,9 +10,9 @@ public class Purse {
     }
     public void remove(Denomination type, int num) {
         if (cash.containsKey(type))
-            cash.remove(type, cash.get(type)-num);
+            cash.put(type, cash.get(type)-num);
         else
-            cash.remove(type, num);
+            cash.remove(type);
     }
     public double getValue() {
         double contents = 0.0;
