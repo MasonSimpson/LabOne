@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b0110a5-8ab2-4c12-bba7-248c0af84c52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LabOne.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Denomination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MakingChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Purse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PursePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegisterPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PursePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PursePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegisterPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegisterPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +35,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MakingChange.executor": "Run",
-    "Application.Register.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/hexzy/IdeaProjects/LabOne/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MakingChange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Register.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/hexzy/IdeaProjects/LabOne/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MakingChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MakingChange" />
@@ -91,6 +83,7 @@
       <updated>1724938783225</updated>
       <workItem from="1724938784313" duration="7067000" />
       <workItem from="1725370340190" duration="14115000" />
+      <workItem from="1725386543245" duration="3081000" />
     </task>
     <servers />
   </component>

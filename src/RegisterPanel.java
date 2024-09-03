@@ -43,6 +43,7 @@ public class RegisterPanel extends JPanel {
         public void actionPerformed(ActionEvent e) {
             double amt = Double.parseDouble(input.getText());
             pursePanel.purse = register.makeChange(amt);
+            System.out.println(pursePanel.purse);
         }
     }
 
