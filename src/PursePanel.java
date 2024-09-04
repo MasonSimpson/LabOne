@@ -30,9 +30,9 @@ public class PursePanel extends JPanel {
             for (int i = 1; i <= entry.getValue(); i++) {
                 JLabel purseLabel = new JLabel();
                 ImageIcon img = new ImageIcon(entry.getKey().img());
-                img.setImage(img.getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH)); // Image itself
+                img.setImage(img.getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH));
                 purseLabel.setIcon(img);
-                purseLabel.setBounds(x, y, 30, 30); // JPanel that contains image
+                purseLabel.setBounds(x, y, 30, 30);
                 resetDisplayPanel.add(purseLabel);
                 this.add(resetDisplayPanel);
                 if (x >= 300) {
