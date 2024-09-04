@@ -15,7 +15,7 @@ public class RegisterPanel extends JPanel {
         this.setBackground(Color.black);
 
         inputPanel = new JPanel();
-        inputPanel.setPreferredSize(new Dimension(300, 30));
+        inputPanel.setPreferredSize(new Dimension(400, 100));
         inputPanel.setBackground(Color.blue);
 
         inputLabel = new JLabel("Enter amount of money:");
@@ -43,8 +43,8 @@ public class RegisterPanel extends JPanel {
         public void actionPerformed(ActionEvent e) {
             double amt = Double.parseDouble(input.getText());
             pursePanel.purse = register.makeChange(amt);
-            pursePanel.revalidate();
-            pursePanel.repaint();
+            revalidate();
+            repaint();
             System.out.println(pursePanel.purse);
         }
     }

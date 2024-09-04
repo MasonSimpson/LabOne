@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Purse {
-    public HashMap<Denomination, Integer> cash = new HashMap<Denomination, Integer>();
+    public HashMap<Denomination, Integer> cash = new HashMap<>();
     public void add(Denomination type, int num) {
         if (cash.containsKey(type))
             cash.put(type, cash.get(type)+num);
