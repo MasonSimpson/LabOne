@@ -20,8 +20,8 @@ public class PursePanel extends JPanel {
 
         super.paintComponent(g);
         resetDisplayPanel = new JPanel();
+        this.remove(resetDisplayPanel);
         resetDisplayPanel.setBackground(Color.cyan);
-
 
         for (Map.Entry<Denomination, Integer> entry : purse.cash.entrySet()) {
             for (int i = 1; i <= entry.getValue(); i++) {

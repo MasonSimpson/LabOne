@@ -34,7 +34,6 @@ public class RegisterPanel extends JPanel {
         this.add(inputPanel);
         this.add(pursePanel);
 
-
         //ImageIcon img = new ImageIcon("images/penny.png");
         //label.setIcon(img);
     }
@@ -42,6 +41,7 @@ public class RegisterPanel extends JPanel {
 
         public void actionPerformed(ActionEvent e) {
             double amt = Double.parseDouble(input.getText());
+            input.setText("");
             pursePanel.purse = register.makeChange(amt);
             revalidate();
             repaint();
