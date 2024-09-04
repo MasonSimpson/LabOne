@@ -7,7 +7,6 @@ public class PursePanel extends JPanel {
     public Purse purse = new Purse();
     public JPanel resetDisplayPanel;
     //private JPanel pursePanel = new JPanel();
-    public boolean active;
 
     public PursePanel() {
         this.setPreferredSize(new Dimension(400, 300));
